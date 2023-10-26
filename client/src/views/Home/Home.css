@@ -1,0 +1,41 @@
+.text-center {
+    text-align: center;
+}
+
+.product-card {
+    height: 300px;
+   box-shadow: 1px 0px 3px 1px;
+    width: 300px;
+    margin: 10px;
+    margin-left: 10PX;
+    padding: 20px;
+    position: relative;
+}
+
+.main-div {
+
+ display: flex;
+ flex-wrap: wrap;
+ margin-left: 50PX;
+
+
+
+}
+.delete-btn{
+position: absolute;
+right: 20px;
+bottom: 20px;
+padding: 8px;
+width: 80px;
+font-size: 17px;
+border:none;
+border-radius: 7px;
+box-shadow: 1px -1px;
+
+}
+.update-btn{
+    position: absolute;
+    right: 120px;
+    text-align: center;
+    text-decoration: none;
+}
